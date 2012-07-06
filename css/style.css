@@ -1,0 +1,91 @@
+body {
+background-image: url('http://subtlepatterns.com/patterns/strange_bullseyes.png');
+}
+
+.centeredImage
+{
+  position: absolute;
+  top: 0%;
+  left: 5%;
+}
+
+/* Additional
+================================================== */
+
+#example {
+  width:600px;
+  height:350px;
+  position:relative;350px}
+
+#ribbon {
+  position:absolute;
+  top:37px;
+  left:7px;
+  z-index:500;left}
+
+
+/*
+ * Slideshow
+ * */
+/*
+ *   Slides
+ *   */
+
+#slides {
+position: relative;
+z-index: 100;
+width: 420px;
+height: 270px;
+}
+
+.slides_container {
+display:none;
+width: 420px;
+height: 270px;
+}
+
+.slides_container img {
+width: 420px;
+height: 270px;
+  display: block;
+}
+
+#slides .prev {
+margin-right: 5px;
+float:left;
+}
+#slides .next {
+margin-right: 5px;
+float:left;
+}
+
+.pagination {
+margin:6px 0 0;
+float: right;
+list-style: none;
+}
+
+.pagination li {
+float: left;
+margin: 0 1px;
+}
+
+.pagination li a {
+display: block;
+width: 13px;
+height: 0;
+padding-top: 13px;
+background-image: url(/img/pagination.png);
+background-position: 0 0;
+float: left;
+overflow: hidden;
+}
+
+.pagination li.current a, .pagination li.current a:hover { background-position: 0 -13px }
+
+.pagination li a:hover { background-position: 0 -26px }
+
+#slides a:link, #slides a:visited { color: #333 }
+
+#slides a:hover, #slides a:active { color: #9e2020 }
+

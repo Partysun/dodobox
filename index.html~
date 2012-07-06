@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="ru"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="ru"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="ru"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>DodoBox - развиваем детей!</title>
+    <meta name="description" content="Dodobox - это наборы для развития и игры с детьми от трех до шести лет.">
+    <meta name="author" content="Dodo Company, yura.zatsepin@gmail.com">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link type="text/css" rel="stylesheet" href="javascript/themes/classic/galleria.classic.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+    <!-- JavaScript
+    ================================================== -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="javascript/galleria-1.2.7.min.js"></script>
+</head>
+<body>
+    <script>
+      if (Galleria) { $("body").text('Galeria works') }
+    </script>
+    <!-- Primary Page Layout
+	================================================== -->
+	<div class="container">
+		<div class="sixteen columns">
+            <h1 class="remove-bottom" style="margin-top: 40px">
+              <img src="images/logo.png" alt="DodoBox logo" height="175" width="175">
+            </h1>
+			<hr />
+		</div>
+		<div class="one-third column">
+			<h3>Как это работает?</h3>
+            <p> Коробка по ежемесячной подписке для детей от 3 до 6 лет, доставляется до вашей двери. В коробке поделки, игрушки и книжка! Все создано в одной тематике и включает все нужные материалы и инструкции. Она аккуратно подбирается нашими специалистами, чтобы доставлять детям счастье и развивать.</p>
+		</div>
+		<div class="one-third column">
+			<h3>Что в коробке?</h3>
+			<p>Три основных компонента в коробке:</p>
+			<ul class="square">
+				<li><strong>Поделка</strong>: 2 - 3 поделки, которые ребенок будет делать своими руками. Все нужные материалы включены.</li>
+				<li><strong>Книжка</strong>: Аккуратно выбранная книжка для развития воображения вашего ребенка.</li>
+				<li><strong>Игрушка</strong>: Тематическая игрушка, с которой можно весело поиграть.</li>
+			</ul>
+		</div>
+		<div class="one-third column">
+			<h3>Подарок</h3>
+			<p>Коробка это отличный подарок для ваших детей. Он не разовый, доставляется хоть весь год. Он всегда разный! Он дешевле чем покупка в розницу. <a href="mailto:mama@dodobox.ru">mama@dodobox.ru</a>.</p>
+          </div>
+        <hr />
+          <div id="galleria">
+            <img src="DSC_1.jpg">
+            <img src="DSC_2.jpg">
+            <img src="DSC_3.jpg">
+            <img src="DSC_4.jpg">
+            <img src="DSC_5.jpg">
+            <img src="DSC_6.jpg">
+          </div>
+          <script>
+            Galleria.loadTheme("javascript/themes/classic/galleria.classic.min.js");
+            Galleria.run('#galleria');
+          </script>
+        <hr />
+        <div class='ecwid-Product'><form>
+          <div style='text-align: center; padding-bottom: 10px;'><script type="text/javascript" src="http://app.ecwid.com/script.js?1210197" charset="utf-8"></script><script type="text/javascript">xProductThumbnail('productid=11948683');</script></div>
+          <div class='ecwid-productBrowser-head' style='text-align: center; padding-bottom: 15px; font: normal 20px tahoma, geneva, verdana, sans-serif'>DodoBox</div>
+          <div class='ecwid-productBrowser-price' style='text-align: center; padding-bottom: 15px' id='ecwid-price-11948683'>900.00p.</div>
+          <table align='center' border='0'><tr><td align='left' class='ecwid'></td></tr></table><div style='text-align: center'><script type="text/javascript" src="http://app.ecwid.com/script.js?1210197" charset="utf-8"></script><script type="text/javascript">xAddToBag('productid=11948683');</script></div>
+          </form>
+        </div>
+        <footer>
+          <p>&copy; Компания Dodo 2012</p>
+        </footer>
+    </div><!-- container -->
+    	<!-- JS
+        ================================================== -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-18909988-5']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
