@@ -1,7 +1,3 @@
-body {
-background-image: url('http://subtlepatterns.com/patterns/strange_bullseyes.png');
-}
-
 .centeredImage
 {
   position: absolute;
@@ -19,8 +15,8 @@ background-image: url('http://subtlepatterns.com/patterns/strange_bullseyes.png'
 
 #ribbon {
   position:absolute;
-  top:37px;
-  left:7px;
+  top:-5px;
+  left: -4px;
   z-index:500;left}
 
 
