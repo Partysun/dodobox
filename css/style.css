@@ -1,3 +1,9 @@
+h1, h2, h3, h4, p, li {
+    font-family: "ubuntu",sans-serif;
+}
+
+
+
 .featured {
     background: #43B1CA url(../images/bg-bambu.jpeg) repeat top center;
     padding-top: 17px;
@@ -86,12 +92,12 @@ p {
     line-height: 1.6;
 }
 
-h2 {
-    color: #636466;
-    letter-spacing: -1px;
-    text-align: center;
-    /*text-shadow: 1px 1px #0A7087;*/
-}
+/*h2 {*/
+    /*color: #636466;*/
+    /*letter-spacing: -1px;*/
+    /*text-align: center;*/
+    /*[>text-shadow: 1px 1px #0A7087;<]*/
+/*}*/
 
 p, li {
     color: black;
@@ -107,6 +113,88 @@ p, li {
     line-height: 1.6;
 }
 
+li {
+    font-size: 14px;
+    font-weight: normal;
+    list-style-position: inside;
+    margin: 13px 0 ;
+    line-height: 1.1;
+}
+
+li a {
+    text-decoration:none;
+}
+
+.testimonials {
+    /*background: url('http://static.flexibits.com/img/testimonial-gradient.png');*/
+    background: #43B1CA url(../images/bg-bambu.jpeg) repeat top center;
+    /*font: 300 28px/22px "caflisch-script-pro",Helvetica,Arial,sans-serif;*/
+    position: relative;
+    color: #525252;
+    border-bottom: 1px solid gray;
+}
+
+.testimonials-inner {
+    width: 880px;
+    margin: 0 auto 0 auto;
+    padding-top: 20px;
+    padding-bottom: 6px;
+}
+
+.testimonials-inner img{
+    float: left;
+    margin-right: 8px;
+}
+
+.testimonials-border {
+    width: 100%;
+    height: 12px;
+    position: relative;
+    top: -70px;
+    background: url(../images/header-bg.png) repeat-x top center;
+}
+
+.testimonials h4 {
+    font-weight: normal;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px #0A7087;
+    margin-top: 7px;
+    /*text-align: center;*/
+    letter-spacing: -1px; 
+}
+
+.price-delivery {
+    font-size: 19px;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.price-delivery li{
+    font-size: 19px;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.addition-delivery {
+    margin-top: 16px;
+}
+
+.addition-price {
+    margin-top: 8px;
+}
+
+/*
+ * Common Styles
+ * */
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
 
 .mainbutton {
     padding: 5px 10px;
@@ -174,13 +262,6 @@ p, li {
 
 .action > h3 {
     text-align: center;
-}
-
-.centeredImage
-{
-  position: absolute;
-  top: 0%;
-  left: 5%;
 }
 
 /* Additional
@@ -280,6 +361,10 @@ overflow: hidden;
     margin-bottom: 20px;
     margin-left: 0;
     list-style: none;
+}
+
+.nav h4 {
+    font-size: 20px;
 }
 
 .clear {
