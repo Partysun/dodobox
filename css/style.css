@@ -2,8 +2,6 @@ h1, h2, h3, h4, p, li {
     font-family: "ubuntu",sans-serif;
 }
 
-
-
 .featured {
     background: #43B1CA url(../images/bg-bambu.jpeg) repeat top center;
     padding-top: 17px;
@@ -39,7 +37,7 @@ h1, h2, h3, h4, p, li {
 .why a {
     font-weight: normal;
     font-size: 18px;
-    color: inherit;
+    color: white;
 }
 
 .why-box {
@@ -181,7 +179,15 @@ li a {
 }
 
 .addition-price {
-    margin-top: 8px;
+    margin-top: 5px;
+    font-size: 16px;
+    border-bottom-style: dashed;
+    border-bottom-width: 2px;
+    border-color: orange;
+}
+
+.addition-price > a {
+    text-decoration: none;
 }
 
 /*
@@ -372,7 +378,7 @@ overflow: hidden;
 }
 
 .about {
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .zero {
