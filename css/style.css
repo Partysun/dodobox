@@ -216,6 +216,10 @@ li a {
     text-shadow: 1px 1px #666;
 }
 
+#sample {
+    text-decoration: none;
+}
+
 .mainbutton:hover {
     background-position: 0 -48px;
 }
@@ -241,12 +245,35 @@ li a {
     line-height: 1;
     text-align: center;
     text-transform: uppercase;
+}
+
+.action.aura {
     -webkit-box-shadow: 0 0 0 11px rgba(158, 187, 97, 0.2),0 1px rgba(255, 255, 255, 0.3) inset,0 2px 2px -2px black;
     -moz-box-shadow: 0 0 0 11px rgba(158,187,97,0.2),0 1px rgba(255,255,255,0.3) inset,0 2px 2px -2px #000;
     box-shadow: 0 0 0 11px rgba(158, 187, 97, 0.2),0 1px rgba(255, 255, 255, 0.3) inset,0 2px 2px -2px black;
 }
 
-.action {
+.action.green {
+    position: relative;
+    z-index: 20;
+    background: #BBDA74;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#CAE186), to(#9FCC57));
+    background: -webkit-linear-gradient(#CAE186, #9FCC57);
+    background: -moz-linear-gradient(#CAE186, #9FCC57);
+    background: -ms-linear-gradient(#CAE186, #9FCC57);
+    background: -o-linear-gradient(#CAE186, #9FCC57);
+    background: linear-gradient(#CAE186, #9FCC57);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #9BB85E;
+    color: #5D7730;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.4);
+    text-align: center;
+    text-decoration: none;
+}
+
+.action.orange {
     position: relative;
     z-index: 20;
     background: #BBDA74;
@@ -270,6 +297,9 @@ li a {
     text-align: center;
 }
 
+.turn {
+   border-top: 4px solid #76AB01; 
+}
 /* Additional
 ================================================== */
 

@@ -63,4 +63,11 @@ mama@dodobox.ru
 Наши поделки уникальны и вы их не сможете купить в магазине.
 Мы стараемся сделать цену максимально оптимальной для вас. И если вы можете нам в этом помочь пишите на
 mama@dodobox.ru с темой - "Оптимально".</p>
+<div class="sixteen column row offset-by-five">
+  <a href="/gift-a-box"><h3 class="mainbutton action green aura">Подарить коробку</h3></a>
+</div>
+<div class="two column addition-delivery">
+  <span><a href="/sample-box"> Пример наполнения </a></span> 
+</div>
+
 <img src="/images/inside.jpg" alt="Что внутри?" >
